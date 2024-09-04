@@ -1,5 +1,6 @@
 body{
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -8,4 +9,39 @@ h1 {
 
 .banner {
     text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4D6CC;
+    height: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: center;
+    padding: 10px;
+}
+
+input, textarea, button{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 4px;
+}
+
+.btn {
+    border-radius: 4px;
+    background-color: #3587A4;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    transition: 0.3s;
+    background-color: #88CCF1;
 }
